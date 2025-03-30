@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<title>Document</title>
+</head>
+<body>
+    <img class="img" src="./photo/Eid-Ul-Fitar1.jpg" alt="">
+    <button data-aos="fade-up" onclick="myFunction()"><i class="fa-solid fa-bars" id="menu"></i></button>
+    <header>
+        <nav class="nav" id="nav">
+            <button onclick="myFunctions()"><i class="fa-solid fa-square-xmark" id="cl"></i></button>
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">PRODUCT</a></li>
+                <li><a href="#">INVITATION</a></li>
+                <li><a href="#">SERVICE</a></li>
+                <li><a href="#"><div class="login"><span>LOGIN</span></div></a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <div class="text">
+        <span data-aos="fade-in">RAMADAN</span><br>
+        <span data-aos="fade-out">MUBARAK</span>
+        <p data-aos="fade-right">Lorem ipsum dolor siuas doloribus esse itaque modi doloremque.</p>
+
+        <button data-aos="fade-left" onclick="myFunctionr()">CURIOUS</button>
+    </div>
+
+    <div class="mubarak" id="invite">
+        <button class="cb" onclick="closeo()"><i class="fa-solid fa-square-xmark" id="cl"></i></button>
+        <div id="ftxt" class="ftxt">
+            <span data-aos="fade-up">🌙🌆 EID MUBARAK! 🌙</span>
+            <p>You are warmly invited celebrate Eid with us.</p>
+            <p>Date: 1st April 2025</p>
+            <p>Venu: Our Home</p>
+            <button data-aos="fade-left" class="aci" onclick="accept()">Accept Invitation</button>
+
+        </div>
+
+        <div id="stxt" class="stxt">
+
+            <p>I want to see you at my home on Eid Day!😊</p>
+            <span>Thank's For Accept My Invitation</span>
+            <button onclick="closer()">Close</button>
+        </div>
+    </div>
+
+
+
+    <script src="./js/script.js"></script>
+    
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+    AOS.init({
+    // Global settings:
+   
+    
+    // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+    offset: 120, // offset (in px) from the original trigger point
+    delay: 0, // values from 0 to 3000, with step 50ms
+    duration: 2500, // values from 0 to 3000, with step 50ms
+    easing: 'ease', // default easing for AOS animations
+    once: false, // whether animation should happen only once - while scrolling down
+    mirror: false, // whether elements should animate out while scrolling past them
+    anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
+    
+    });
+    </script>
+</body>
+</html>> scrolling the page (advanced)
+    
+    
+    // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+    offset: 120, // offset (in px) from the original trigger point
+    delay: 0, // values from 0 to 3000, with step 50ms
+    duration: 400, // values from 0 to 3000, with step 50ms
+    easing: 'ease', // default easing for AOS animations
+    once: false, // whether animation should happen only once - while scrolling down
+    mirror: false, // whether elements should animate out while scrolling past them
+    anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
+    
+    });
+    </script>
+</body>
+</html>

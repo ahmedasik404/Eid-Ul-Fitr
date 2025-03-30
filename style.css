@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    
+
+}
+.img{
+    position: absolute;
+    z-index: -1;
+    height: 738px;
+    width: 360px;
+    object-fit: cover;
+}
+#menu{
+    position: fixed;
+    margin-left: 315px;
+    margin-top: 10px;
+    font-size: 30px;
+    color: #f9ce0d;
+}
+header nav{
+    display: none;
+    width: 100%;
+    height: 100vh;
+    background: white;
+    color: black;
+    margin-top: -19px;
+    
+}
+header nav #cl{
+    position: fixed;
+    margin-left: 315px;
+    margin-top: -5px;
+    font-size: 30px;
+    color: #f9ce0d;
+}
+header nav ul{
+    position: absolute;
+    margin-top: 45%;
+    margin-left: 40%;
+}
+header nav ul li{
+    list-style-type: none;
+    margin-top: 35px;
+    
+}
+header nav ul li a{
+    text-decoration: none;
+    color: black;
+    text-align: left;
+    transition: 0.4s;
+}
+header nav ul li a:hover{
+    color: #f9ce0d;
+    font-size: 20px;
+}
+
+.text{
+    position: absolute;
+    width: 260px;
+    height: auto;
+    margin-top: 60%;
+   margin-left: 5%;
+   
+
+
+}
+.text span{
+    
+    font-family: "Bebas Neue";
+    font-size: 60px;
+    margin-left: 29%;
+    color: white;
+
+}
+.text p{
+    margin-top: 10px;
+    color: white;
+    text-align: center;
+    margin-left: 27px;
+}
+.text button{
+    position: relative;
+    width: 150px;
+    height: 40px;
+    margin-top: 50px;
+    background: linear-gradient(to right, orange, #f9ce0d);
+    border-radius: 23px;
+    border: navajowhite;
+    margin-left: 75px;
+    
+}
+.text button:hover{
+    -webkit-box-shadow: 2px 2px 20px 3px rgba(249,206,13,1);
+-moz-box-shadow: 2px 2px 20px 3px rgba(249,206,13,1);
+box-shadow: 2px 2px 20px 3px rgba(249,206,13,1);
+}
+.mubarak{
+    position: absolute;
+    display: none;
+    width: 330px;
+    height: 220px;
+    background: white;
+    border: 2px solid #f9ce0d;
+    border-radius: 10px;
+    margin-top: 60%;
+    margin-left: 4%;
+    text-align: center;
+    -webkit-box-shadow: 2px 2px 20px 3px #f90d6e;
+    -moz-box-shadow: 2px 2px 20px 3px #f90d6e;
+    box-shadow: 2px 2px 20px 3px #f90d6e;
+}
+.mubarak #cl{
+    color: #f90d6e;
+    font-size: 15px;
+    
+}
+.mubarak .cb{
+    margin-left: 300px;
+    margin-top: 5px;
+    border: none;
+}
+.mubarak .ftxt{
+    margin-top: 40px;
+}
+
+.mubarak .ftxt span{
+    color: #f90d6e;
+    font-size: 25px;
+}
+.mubarak .ftxt p{
+    margin-top: 10px;
+    color: gray;
+}
+.mubarak .ftxt .aci{
+    width: 150px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    background: #f90d6e;
+    margin-top: 10px;
+    
+}
+.mubarak .ftxt button:hover{
+-webkit-box-shadow: 2px 2px 20px 3px #f90d6e;
+    -moz-box-shadow: 2px 2px 20px 3px #f90d6e;
+    box-shadow: 2px 2px 20px 3px #f90d6e;
+}
+.mubarak .stxt{
+    position: absolute;
+    display: none;
+    width: 260px;
+    height: 150px;
+    background: white;
+    margin-top: -50%;
+    margin-left: 10%;
+    border: 2px solid #f9ce0d;
+    border-radius: 10px;
+    text-align: center;
+    -webkit-box-shadow: 2px 2px 20px 3px #f90d6e;
+    -moz-box-shadow: 2px 2px 20px 3px #f90d6e;
+    box-shadow: 2px 2px 20px 3px #f90d6e;
+}
+.mubarak .stxt p{
+    margin-top: 30px;
+}
+.mubarak .stxt span{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: -70px;
+}
+.mubarak .stxt button{
+    width: 80px;
+    height: 30px;
+    margin-top: 50px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f90d6e;
+}
